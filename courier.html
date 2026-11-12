@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuickCourier - Parcel Booking</title>
+
+<link rel="stylesheet" href="courier.css">
+<body>
+
+<!-- Navigation -->
+<header>
+    <div class="logo">📦 QuickCourier</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#booking">Book Pickup</a>
+        <a href="#rates">Rates</a>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <h1>Fast & Reliable Courier Service</h1>
+    <p>Send your parcels anywhere with easy doorstep pickup.</p>
+    <a href="#booking">Book Your Parcel</a>
+</section>
+
+<!-- Services -->
+<section class="container" id="services">
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="services">
+
+        <div class="service-card">
+            <div class="icon">🚚</div>
+            <h3>Doorstep Pickup</h3>
+            <p>Book a courier and get your parcel picked up from your home.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">📦</div>
+            <h3>Parcel Delivery</h3>
+            <p>Safe and reliable delivery for documents and packages.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">💰</div>
+            <h3>Affordable Rates</h3>
+            <p>Simple and budget-friendly courier shipping charges.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Booking Form -->
+<section class="container" id="booking">
+    <div class="booking">
+
+        <h2>Book Your Doorstep Pickup</h2>
+
+        <form>
+
+            <div class="form-group">
+                <label>Sender Name</label>
+                <input type="text" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Mobile Number</label>
+                <input type="tel" placeholder="Enter mobile number" required>
+            </div>
+
+            <div class="form-group">
+                <label>Pickup Address</label>
+                <textarea rows="3" placeholder="Enter your complete address"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Delivery Address</label>
+                <textarea rows="3" placeholder="Enter receiver address"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Parcel Type</label>
+                <select>
+                    <option>Select Parcel Type</option>
+                    <option>Documents</option>
+                    <option>Small Package</option>
+                    <option>Medium Package</option>
+                    <option>Large Package</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Parcel Weight (KG)</label>
+                <input type="number" min="0.1" step="0.1"
+                placeholder="Enter parcel weight">
+            </div>
+
+            <div class="form-group">
+                <label>Pickup Date</label>
+                <input type="date">
+            </div>
+
+            <div class="form-group">
+                <label>Pickup Time</label>
+                <select>
+                    <option>Select Time</option>
+                    <option>9 AM - 11 AM</option>
+                    <option>11 AM - 1 PM</option>
+                    <option>2 PM - 4 PM</option>
+                    <option>4 PM - 6 PM</option>
+                </select>
+            </div>
+
+            <button type="submit">Book Pickup Now</button>
+
+        </form>
+    </div>
+</section>
+
+<!-- Courier Rates -->
+<section class="container" id="rates">
+    <div class="rate">
+        <h2>Courier Shipping Rates</h2>
+        <p>📄 Documents: ₹40 onwards</p>
+        <p>📦 Small Parcel: ₹60 onwards</p>
+        <p>📦 Medium Parcel: ₹100 onwards</p>
+        <p>🚚 Large Parcel: ₹150 onwards</p>
+        <p><b>Note:</b> Actual charges depend on weight and delivery distance.</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <h3>📦 QuickCourier</h3>
+    <p>Fast Delivery | Safe Shipping | Easy Booking</p>
+    <p>© 2026 QuickCourier. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
